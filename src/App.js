@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
       <Route path="/" element={<Home/>} />
-        <Route path="/posts" element={<Posts input="input" essay="essay" postsList="postsList" />} />
+        <Route path="/posts" element={<Posts/>} />
       </Routes>
     </BrowserRouter>
   );
